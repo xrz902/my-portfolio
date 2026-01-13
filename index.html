@@ -10,19 +10,54 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
+      <link
+      rel="stylesheet"
+      href="css/normalize.css"
+    />
     />
   </head>
   <body>
-    <div class="navbar">
+    <div class="navbar container">
       <img src="images/logo.svg" alt="Logotype" />
       <nav class="navigation">
         <ul class="nav-list">
-          <li class="nav-item"><a href="#" class="nav-link active">Главная</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Главная</a>
+          </li>
           <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
         </ul>
       </nav>
     </div>
+    <!-- ./navbar -->
+    <header class="header container">
+      <img src="images/avatar.png" alt="Павел" class="header-photo" />
+      <!-- /.header-photo -->
+      <div class="header-text">
+        <strong class="header-strong">Привет 👋</strong>
+        <h1 class="header-heading">
+          <span class="header-primary">Я фронтенд-разработчик и веб-дизайнер</span> 
+        <br> Меня зовут Артем Исламов и я делаю 
+        сайты для людей и компаний
+      </h1>
+      <div class="header-links">
+        <ul class="social-list">
+          <li class="social-item"><a href="" class="social-link"><img src="images/Icons/linkedin.svg" alt="linkedin" class="social logo"></a></li>
+          <li class="social-item"><a href="" class="social-link"><img src="images/Icons/twitter.svg" alt="twitter" class="social logo"></a></li>
+          <li class="social-item"><a href="" class="social-link"><img src="images/Icons/github.svg" alt="github" class="social logo"></a></li>
+          <li class="social-item"><a href="" class="social-link"><img src="images/Icons/stackoverflow.svg" alt="stackoverflow" class="social logo"></a></li>
+          <li class="social-item"><a href="" class="social-link"><img src="images/Icons/youtube.svg" alt="YT" class="social logo"></a></li>
+        </ul>
+        <a href="#" class="cv-download" download="">
+          <img src="images/Icons/Icon.svg" alt="download-icon" class="cv-icon">
+          <span class="cv-text">Скачать резюме</span>
+        </a>
+      </div>
+      <!-- /.header-links -->
+      </div>
+      <!-- /.header-text -->
+    </header>
+    <!-- /.header -->
   </body>
 </html>
