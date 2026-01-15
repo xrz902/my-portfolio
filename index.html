@@ -231,16 +231,16 @@
     <section class="feedback" id="feedback">
       <img src="images/hand.png" alt="hand" class="feedback-hand" />
       <div class="form-container">
-        <h2 class="feedback-title">Готов обсудить проект</h2>
+        <h2 class="feedback-title">Готов обсудить проект ...</h2>
         <form action="#" class="form">
           <div class="input-group">
             <label for="userName" class="input-label">Имя</label>
-            <input id="userName" type="text" class="input" />
+            <input id="userName" name="client_name" type="text" class="input" />
           </div>
           <!-- /.input-group -->
           <div class="input-group">
             <label for="userEmail" class="input-label">Email</label>
-            <input id="userEmail" type="text" class="input" />
+            <input id="userEmail" name="client_email" type="text" class="input" />
           </div>
           <!-- /.input-group -->
           <div class="input-group">
@@ -249,6 +249,7 @@
               id="userMessage"
               cols="30"
               rows="30"
+              name="client_message"
               class="input textarea"
             ></textarea>
           </div>
@@ -271,5 +272,6 @@
       <div class="text-footer">Сделано с ❤️ в Москве</div>
     </section>
     <!-- /.footer -->
+     <script src="js/main.js"></script>
   </body>
 </html>
